@@ -19,4 +19,8 @@ test('it should be  false', () => {
 
 test('it should be  true', () => {
   expect(functions.checkValue(true)).toBeTruthy()
-})
+});
+
+test('it should be  undefined', () => {
+  expect(functions.nothing()).toBeUndefined();
+});

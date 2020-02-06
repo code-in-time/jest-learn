@@ -3,7 +3,9 @@ const functions = {
 
   isNull: () => null,
 
-  checkValue: x => x
+  checkValue: x => x,
+
+  nothing: c => { let s= 1 + 1;}
 }
 
 module.exports = functions;
