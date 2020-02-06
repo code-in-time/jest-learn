@@ -5,7 +5,13 @@ const functions = {
 
   checkValue: x => x,
 
-  nothing: c => { let s= 1 + 1;}
+  nothing: c => { let s= 1 + 1;},
+
+  createUser: () => {
+    const user = {firstName: 'Brad'};
+    user['lastName'] = 'test';
+    return user;
+  }
 }
 
 module.exports = functions;

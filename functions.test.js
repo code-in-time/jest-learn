@@ -24,3 +24,7 @@ test('it should be  true', () => {
 test('it should be  undefined', () => {
   expect(functions.nothing()).toBeUndefined();
 });
+
+test('it should be  user brad test', () => {
+  expect(functions.createUser()).toEqual({firstName: 'Brad', lastName: 'test'});
+});
