@@ -1,0 +1,23 @@
+{
+  "name": "jest-learn",
+  "version": "1.0.0",
+  "description": "Jest Crash Course - Unit Testing in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-in-time/jest-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-in-time/jest-learn/issues"
+  },
+  "homepage": "https://github.com/code-in-time/jest-learn#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
