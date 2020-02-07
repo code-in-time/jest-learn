@@ -46,6 +46,6 @@ test('There must not be an I in team', () => {
 
 test('Admin should be in usernames', () => {
 
-  const usernames = ['dmin', 'rwe', 'jkjkj', 'dfdf']
+  const usernames = ['admin', 'rwe', 'jkjkj', 'dfdf']
   expect(usernames).toContain('admin');
 })
