@@ -28,3 +28,24 @@ test('it should be  undefined', () => {
 test('it should be  user brad test', () => {
   expect(functions.createUser()).toEqual({firstName: 'Brad', lastName: 'test'});
 });
+
+test('should be under 1600', () => {
+  expect(1).toBeGreaterThan(0)
+})
+test('1 should be greater than 0', () => {
+  expect(1).toBeGreaterThan(0)
+})
+
+test('1 should be less than 2', () => {
+  expect(1).toBeLessThan(2)
+})
+
+test('There must not be an I in team', () => {
+  expect('team').not.toMatch(/[i]+/i)
+})
+
+test('Admin should be in usernames', () => {
+
+  const usernames = ['dmin', 'rwe', 'jkjkj', 'dfdf']
+  expect(usernames).toContain('admin');
+})
