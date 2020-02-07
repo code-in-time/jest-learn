@@ -60,7 +60,7 @@ test('user fetched name should be Leanne Graham', () => {
 })
 
 // Async await
-test('user fetched name should be Leanne Graham',  async () => {
+test('user fetched name should be Leanne Graham ....',  async () => {
   expect.assertions(1);
   const data = await functions.fetchUser();
   expect(data.name).toEqual('Leanne Graham')
