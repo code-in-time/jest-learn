@@ -7,6 +7,9 @@ const runEnd = () => console.log('runEnd')
 beforeEach(() => runStart());
 afterEach(() => runEnd());
 
+beforeAll(() => console.log('start'))
+beforeAll(() => console.log('end'))
+
 
 
 test('Add 2 plus 2 to = 4', () => {
